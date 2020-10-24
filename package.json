@@ -1,0 +1,36 @@
+{
+  "name": "rouket",
+  "version": "0.0.1",
+  "description": "The socket router for microservice systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "stop": "fuser -k 2083/tcp",
+    "test": "jest" 
+  },
+  "keywords": [
+    "socket-router",
+    "socket",
+    "router",
+    "microservice"
+  ],
+  "author": {
+    "email": "nodehi.work@gmail.com",
+    "name": "hossein nodehi"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.11.10",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "laravel-echo": "^1.9.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1",
+    "underscore": "^1.11.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0",
+    "typescript": "^4.0.3"
+  }
+}
